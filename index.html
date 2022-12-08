@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Portfolio</title>
 </head>
@@ -14,64 +16,281 @@
     
     <!-- Header -->
     <header class="header">
-        <div class="container">
-            <div class="header__inner">
-                <div class="header__left">
-                    <div class="header__subtitle">
-                        <h2 class="header__subtitle-text">Portfolio</h2>
-                    </div>
-
-                    <div class="header__creative">
-                        <p>Be creative</p>
-                    </div>
-
+        <div class="header__inner">
+            <div class="header__left">
+                <div class="header__subtitle">
+                    <h2 class="header__subtitle-text">Portfolio</h2>
                 </div>
-                <div class="header__right">
-                    <nav class="nav">
-                        <a class="nav__link" href="#">ABOUT ME</a>
-                        <a class="nav__link" href="#">PORTFOLIO</a>
-                        <a class="nav__link nav__link_blue" href="#">DOWNLOAD CV</a>
-                    </nav>
 
-                    <div class="header__title-wrapper">
-                        <h1 class="header__title">My <span>work</span></h1>
-                        <h3 class="header__subtitle-main">Web &amp; visual Designer</h3>
-                        <div class="square"></div>
-                    </div>
+                <div class="header__creative">
+                    <p>Be creative</p>
+                </div>
 
-                    <div class="contacts">
-                        <div class="contacts__wrapper">
-                            <p>Follom me on:</p>
-                            <div class="contacts__icons">
-                                <a href="#" target="_blank">
-                                    <img class="contacts__icons-item" src="assets/img/Facebook-icon.svg" alt="">
-                                </a>
-                                <a href="#" target="_blank">
-                                    <img class="contacts__icons-item" src="assets/img/Twitter-icon.svg" alt="">
-                                </a>
-                                <a href="#" target="_blank">
-                                    <img class="contacts__icons-item" src="assets/img/Linkedin-icon.svg" alt="">
-                                </a>
-                            </div>
+            </div>
+            <div class="header__right">
+                <nav class="nav">
+                    <a class="nav__link" href="#">ABOUT ME</a>
+                    <a class="nav__link" href="#">PORTFOLIO</a>
+                    <a class="nav__link nav__link_blue" href="#">DOWNLOAD CV</a>
+                </nav>
+
+                <div class="header__title-wrapper">
+                    <h1 class="header__title">My <span>work</span></h1>
+                    <h3 class="header__subtitle-main">Web &amp; visual Designer</h3>
+                    <div class="square"></div>
+                </div>
+
+                <div class="contacts">
+                    <div class="contacts__wrapper">
+                        <p>Follom me on:</p>
+                        <div class="contacts__icons">
+                            <a href="#" target="_blank">
+                                <img class="contacts__icons-item" src="assets/img/Facebook-icon.svg" alt="">
+                            </a>
+                            <a href="#" target="_blank">
+                                <img class="contacts__icons-item" src="assets/img/Twitter-icon.svg" alt="">
+                            </a>
+                            <a href="#" target="_blank">
+                                <img class="contacts__icons-item" src="assets/img/Linkedin-icon.svg" alt="">
+                            </a>
                         </div>
                     </div>
-
-                    <div class="intro-button">
-                        <button class="button-play"><div class="triangle"></div>
-                        </button>
-                        <div class="intro-button__text">My intro</div>
-                    </div>
                 </div>
 
-                <div class="header__circle">
-                    <div class="header__out-circle">
-                        <div class="header__in-circle"></div>
-                    </div>
+                <div class="intro-button">
+                    <button class="button-play"><div class="triangle"></div>
+                    </button>
+                    <div class="intro-button__text">My intro</div>
                 </div>
+            </div>
 
-            </div> <!-- /.header__inner -->
-        </div> <!-- /.container -->
+            <div class="header__circle">
+                <div class="header__out-circle">
+                    <div class="header__in-circle"></div>
+                </div>
+            </div>
+
+        </div> <!-- /.header__inner -->
     </header>
+
+    <!-- Advantages -->
+    <div class="advantages">
+        <div class="advantages__inner">
+            <div class="advantages__item">
+                <img class="advantages__icon" src="assets/img/advantages/stopwatch.svg" alt="icon">
+                <div class="advantages__container">
+                    <h3 class="advantages__title">On time</h3>
+                    <div class="advantages__subtitle">All i want to have client setisfaction & this is my aim</div>
+                </div>
+                <a class="advantages__btn" href="#">Learn more</a>
+            </div>
+
+            <div class="advantages__item">
+                <img class="advantages__icon" src="assets/img/advantages/safe-box.svg" alt="icon">
+                <div class="advantages__container">
+                    <h3 class="advantages__title">Clean work</h3>
+                    <div class="advantages__subtitle">All i want to have client setisfaction & this is my aim</div>
+                </div>
+                <a class="advantages__btn" href="#">Learn more</a>
+            </div>
+
+            <div class="advantages__item">
+                <img class="advantages__icon" src="assets/img/advantages/icon.svg" alt="icon">
+                <div class="advantages__container">
+                    <h3 class="advantages__title">Client setisfaction</h3>
+                    <div class="advantages__subtitle">All i want to have client setisfaction & this is my aim</div>
+                </div>
+                <a class="advantages__btn" href="#">Learn more</a>
+            </div>
+        </div>
+    </div> <!-- /.advantages -->
+
+    <!-- My portfolio -->
+    <section class="section">
+        <div class="section__inner">
+            <div class="section__header">
+                <h2 class="section__title">My Portfolio</h2>
+                <h3 class="section__subtitle">Web & App</h3>
+            </div>
+            <div class="section__container">
+                <div class="section__items">
+                    <div class="section__item">
+                        <a class="section__img" href="#" target="_blank">
+                            <img src="assets/img/portfolio-img/1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="section__content">
+                        <div class="section__maintext">Portfolio</div>
+                        <div class="section__text">Writing paragraphs takes practice, but what should students write 
+                            about? Good paragraph writing prompts allow students to write 
+                            about what they know and like, so their focus can be on the writing 
+                            process and using the four essential elements.</div>
+                    </div>
+                </div>
+                <div class="section__items">
+                    <div class="section__item">
+                        <a class="section__img" href="#" target="_blank">
+                            <img src="assets/img/portfolio-img/2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="section__content">
+                        <div class="section__maintext">Portfolio</div>
+                        <div class="section__text">Writing paragraphs takes practice, but what should students write 
+                            about? Good paragraph writing prompts allow students to write 
+                            about what they know and like, so their focus can be on the writing 
+                            process and using the four essential elements.</div>
+                    </div>
+                </div>
+                <div class="section__items">
+                    <div class="section__item">
+                        <a class="section__img" href="#" target="_blank">
+                            <img src="assets/img/portfolio-img/3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="section__content">
+                        <div class="section__maintext">Portfolio</div>
+                        <div class="section__text">Writing paragraphs takes practice, but what should students write 
+                            about? Good paragraph writing prompts allow students to write 
+                            about what they know and like, so their focus can be on the writing 
+                            process and using the four essential elements.</div>
+                    </div>
+                </div>
+                <div class="section__items">
+                    <div class="section__item">
+                        <a class="section__img" href="#" target="_blank">
+                            <img src="assets/img/portfolio-img/8.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="section__content">
+                        <div class="section__maintext">Portfolio</div>
+                        <div class="section__text">Writing paragraphs takes practice, but what should students write 
+                            about? Good paragraph writing prompts allow students to write 
+                            about what they know and like, so their focus can be on the writing 
+                            process and using the four essential elements.</div>
+                    </div>
+                </div>
+                <div class="section__items">
+                    <div class="section__item">
+                        <a class="section__img" href="#" target="_blank">
+                            <img src="assets/img/portfolio-img/4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="section__content">
+                        <div class="section__maintext">Portfolio</div>
+                        <div class="section__text">Writing paragraphs takes practice, but what should students write 
+                            about? Good paragraph writing prompts allow students to write 
+                            about what they know and like, so their focus can be on the writing 
+                            process and using the four essential elements.</div>
+                    </div>
+                </div>
+                <div class="section__items">
+                    <div class="section__item">
+                        <a class="section__img" href="#" target="_blank">
+                            <img src="assets/img/portfolio-img/5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="section__content">
+                        <div class="section__maintext">Portfolio</div>
+                        <div class="section__text">Writing paragraphs takes practice, but what should students write 
+                            about? Good paragraph writing prompts allow students to write 
+                            about what they know and like, so their focus can be on the writing 
+                            process and using the four essential elements.</div>
+                    </div>
+                </div>
+                <div class="section__items">
+                    <div class="section__item">
+                        <a class="section__img" href="#" target="_blank">
+                            <img src="assets/img/portfolio-img/6.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="section__content">
+                        <div class="section__maintext">Portfolio</div>
+                        <div class="section__text">Writing paragraphs takes practice, but what should students write 
+                            about? Good paragraph writing prompts allow students to write 
+                            about what they know and like, so their focus can be on the writing 
+                            process and using the four essential elements.</div>
+                    </div>
+                </div>
+                <div class="section__items">
+                    <div class="section__item">
+                        <a class="section__img" href="#" target="_blank">
+                            <img src="assets/img/portfolio-img/7.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="section__content">
+                        <div class="section__maintext">Portfolio</div>
+                        <div class="section__text">Writing paragraphs takes practice, but what should students write 
+                            about? Good paragraph writing prompts allow students to write 
+                            about what they know and like, so their focus can be on the writing 
+                            process and using the four essential elements.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section">
+        <div class="section__inner_reviews">
+            <div class="section__header">
+                <h2 class="section__title">Valuable Testimonial</h2>
+                <h3 class="section__subtitle">See People Say About Me</h3>
+            </div>
+            <div class="slider">
+                <div class="slider__bg">
+                    <div class="slider__inner">
+                        <div class="slider__photo">
+                            <div class="slider__photo_in">
+
+                            </div>
+                        </div>
+                        <div class="slider__name">Jhon Wick, New York</div>
+                        <div class="slider__text">Writing paragraphs takes practice, but what should students write about? Good paragraph writing prompts allow students to write about what they know and like, so their focus can be on the writing process and using the four essential elements.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__points">
+                <div class="slider__item"></div>
+                <div class="slider__item active"></div>
+                <div class="slider__item"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form -->
+    <section class="section">
+        <div class="section__header">
+            <h2 class="section__title">Want To Hire Me?</h2>
+            <h3 class="section__subtitle">If You Like My Work</h3>
+        </div>
+        <form class="form" action="/" method="post">
+            <input class="input" type="text" placeholder="enter your email">
+            <button class="btn" type="submit">
+                <span>Hire Me</span>
+            </button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h2 class="header__subtitle-text">Portfolio</h2>
+        <nav class="footer__nav">
+            <a class="nav__link_white" href="#">ABOUT ME</a>
+            <a class="nav__link_white" href="#">PORTFOLIO</a>
+            <a class="nav__link_white" href="#">DOWNLOAD CV</a>
+        </nav>
+        <div class="footer__links">
+            <a class="footer__links-item" href="#" target="_blank">
+                <img src="assets/img/Facebook-white.svg" alt="">
+            </a>
+            <a class="footer__links-item" href="#" target="_blank">
+                <img src="assets/img/Twitter-white.svg" alt="">
+            </a>
+            <a class="footer__links-item" href="#" target="_blank">
+                <img src="assets/img/Linkedin-white.svg" alt="">
+            </a>
+        </div>
+    </footer>
 
 </div>
     
